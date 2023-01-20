@@ -574,23 +574,58 @@ li{
             height: 65%;
         } */
         .custom-select select{
-            width: 35vw;
+            width: 77vw;
             padding: 1vh 0vw;
             background: rgba(254, 168, 47, 1);
-            font-family: 'Aileron';
+            font-family: 'Aileron', sans-serif;
             border: 2px solid black;
+            font-weight: 700;
         }
+        .custom-select option{
+          width: 77vw;
+          padding: 1vh 0vw;
+          background: rgba(254, 168, 47, 1);
+          font-family: 'Aileron', sans-serif;
+          border: 2px solid black;
+          font-weight: 700;
+      }
 
         .custom-select2 select{
-          width: 17vw;
+          width: 30vw;
           padding: 1vh 0vw;
           /* background: rgba(254, 168, 47, 1); */
           background: transparent;
           font-family: 'Aileron';
           border: 2px solid black;
           font-weight: 700;
-
       }
+      .custom-select2 option{
+        width: 30vw;
+        padding: 1vh 0vw;
+        /* background: rgba(254, 168, 47, 1); */
+        background: transparent;
+        font-family: 'Aileron';
+        border: 2px solid black;
+        font-weight: 700;
+    }
+      .custom-select3 select{
+        width: 17vw;
+        padding: 1vh 0vw;
+        /* background: rgba(254, 168, 47, 1); */
+        background: transparent;
+        font-family: 'Aileron';
+        border: 2px solid black;
+        font-weight: 700;
+    }
+    .custom-select3 option{
+      width: 17vw;
+      padding: 1vh 0vw;
+      /* background: rgba(254, 168, 47, 1); */
+      background: transparent;
+      font-family: 'Aileron';
+      border: 2px solid black;
+      font-weight: 700;
+  }
       .custom-select2 select option{
         font-family: 'Aileron';
       }

@@ -43,7 +43,7 @@ addIndividual.addEventListener('click',target=>{
             <div class="pass-type age-gen">
                 <div class="pass-gender">
                     <p class="textinput">Gender</p>
-                    <div class="custom-select">
+                    <div class="custom-select2">
                         <select name="" id="">
                         <option value="0">Select</option>
                         <option value="asdasd">female</option>
@@ -53,7 +53,7 @@ addIndividual.addEventListener('click',target=>{
                 </div>
                 <div class="pass-age">
                     <p class="textinput">Age</p>
-                    <div class="custom-select">
+                    <div class="custom-select3">
                         <select name="" id="">
                         <option value="0">1</option>
                         <option value="asdasd">2</option>
