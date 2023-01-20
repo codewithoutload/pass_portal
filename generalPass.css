@@ -1,8 +1,18 @@
+@import url('//db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold');
+@import url('//db.onlinewebfonts.com/c/351c65048c69125fa2f3421ec197545d?family=Aileron');
 @import url('https://fonts.cdnfonts.com/css/aileron');
 body {
     margin: 0;
     background-image: url("Android Large - 4 - Copy.png");
    
+}
+@media screen  and (max-width:800px){
+    body {
+        margin: 0;
+        background-image: url("Android Large - 4.png");
+        display: block;
+    }
+
 }
 /* ////////////////////////////////////////////////// CSS for navbar starts */
 @import url(//db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold);
@@ -326,7 +336,7 @@ li{
 .passImg{
     display: flex;
     flex-direction: column;
- 
+    margin-top: 5vh;
 }
 .passImg img{
     margin-left: auto;
@@ -343,29 +353,37 @@ li{
     height: fit-content;
     margin: auto;
     font-family: 'Aileron', sans-serif;
-    position: relative;
+    /* position: relative; */
     margin-top: 10%;
     margin-bottom: 100vh;
 }
 
 .form-top {
-    display: grid;
+    /* display: grid; */
     position: relative;
+    background-image: url("form top.png");
+    background-size: 100% 100%;
   
 }
 
 .form-mid {
-    display: grid;
+    /* display: grid; */
+    background-image: url("form mid.png");
+    background-size: 100% 100%;
+    
+
 }
 
 .form-bottom {
-    display: grid;
+    /* display: grid; */
+    background-image: url("form-bottom.png");
+    background-size: 100% 100%;
 }
 
-.bgpic {
+/* .bgpic {
     width: 100%;
     height: auto;
-}
+} */
 
 .register-now {
     font-size: 20px;
@@ -378,20 +396,27 @@ li{
 }
 
 .form {
-    width: 100%;
-    position: absolute;
-    z-index: 9;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* z-index: 9; */
     padding: 7%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .bookTicketsBtnDiv{
-    position: absolute;
+    /* position: absolute; */
     /* box-shadow: 5px 1px black; */
     /* border-radius: 45px; */
-    /* display: flex; */
-    bottom: 5%;
-    left: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    /* bottom: 5%; */
+    /* left: 14%; */
+    margin-top: 10%;
+    /* margin-left: 3%; */
 }
+
 
 
 /* .bookTicketsBtnDiv:hover{
@@ -429,7 +454,7 @@ li{
 
 .input-text-field {
     background: rgba(255, 255, 255, 0);
-    height: ;
+    /* height: ; */
     width: 100%;
     padding: 2% 3%;
     border-color: black;
@@ -480,7 +505,7 @@ input:focus {
 }
 
 .custom-select select {
-    display: none;
+    /* display: none; */
     /*hide original SELECT element:*/
 }
 /*style the arrow inside the select element:*/
@@ -536,7 +561,7 @@ input:focus {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.custom-select:after {
+/* .custom-select:after {
     border-left: 2px solid rgb(0, 0, 0);
     content: "\00a0";
     position: absolute;
@@ -545,8 +570,63 @@ input:focus {
     z-index: 2;
     display: block;
     height: 65%;
+} */
+.custom-select select{
+    width: 77vw;
+    padding: 1vh 0vw;
+    background: rgba(254, 168, 47, 1);
+    font-family: 'Aileron', sans-serif;
+    border: 2px solid black;
+    font-weight: 700;
+}
+.custom-select option{
+  width: 77vw;
+  padding: 1vh 0vw;
+  background: rgba(254, 168, 47, 1);
+  font-family: 'Aileron', sans-serif;
+  border: 2px solid black;
+  font-weight: 700;
 }
 
+.custom-select2 select{
+  width: 30vw;
+  padding: 1vh 0vw;
+  /* background: rgba(254, 168, 47, 1); */
+  background: transparent;
+  font-family: 'Aileron';
+  border: 2px solid black;
+  font-weight: 700;
+}
+.custom-select2 option{
+width: 30vw;
+padding: 1vh 0vw;
+/* background: rgba(254, 168, 47, 1); */
+background: transparent;
+font-family: 'Aileron';
+border: 2px solid black;
+font-weight: 700;
+}
+.custom-select3 select{
+width: 17vw;
+padding: 1vh 0vw;
+/* background: rgba(254, 168, 47, 1); */
+background: transparent;
+font-family: 'Aileron';
+border: 2px solid black;
+font-weight: 700;
+}
+.custom-select3 option{
+width: 17vw;
+padding: 1vh 0vw;
+/* background: rgba(254, 168, 47, 1); */
+background: transparent;
+font-family: 'Aileron';
+border: 2px solid black;
+font-weight: 700;
+}
+.custom-select2 select option{
+font-family: 'Aileron';
+}
 .remove-button {
     font-size: 0.75rem;
     padding: 0.5rem;
@@ -563,7 +643,6 @@ input:focus {
     flex-direction: row;
     justify-content: space-between
 }
-
 /* /////////////////////////////// CSS for footer starts here */
 @import url(//db.onlinewebfonts.com/c/564f6ec12550d3a8d7ec25152231244d?family=Star+Guard+Semi+Italic);
 @import url(//db.onlinewebfonts.com/c/deb32b91d90407c8527dfeaac14994d6?family=Aileron);
