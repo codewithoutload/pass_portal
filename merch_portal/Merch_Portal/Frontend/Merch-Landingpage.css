@@ -1,0 +1,299 @@
+@import url(//db.onlinewebfonts.com/c/564f6ec12550d3a8d7ec25152231244d?family=Star+Guard+Semi+Italic);
+@import url(//db.onlinewebfonts.com/c/deb32b91d90407c8527dfeaac14994d6?family=Aileron);
+
+* {
+
+  
+  margin: 0%;
+
+}
+body{
+  /* background: #fff5e6; */
+  background-image: url('./images/paperboard-yellow-texture2.png');
+background-size: cover;
+  z-index: 1;
+}
+.navbar {
+  z-index: 3;
+  width: 100%;
+  height: 15vh;
+  border: 2px solid #f35c41;
+  display: flex;
+}
+
+.header,.header-mob {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.merchheader {
+  z-index: 3;
+
+  width: 63vw;
+}
+
+.scrolldown {
+  z-index: 3;
+  margin-top: 3.5%;
+  color: #f35c41;
+  font-family: "Aileron";
+  font-weight: 600;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.heading-tshirt,.heading-tshirt-mob{
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.mainbody {
+  z-index: 3;
+  margin-top: 10%;
+
+  min-height: fit-content;
+
+}
+
+.tshirtcards {
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tshirtcard1 button {
+  z-index: 3;
+  position: absolute;
+  background: transparent;
+  border: none;
+  margin-top: -4.2%;
+  margin-left: -5%;
+  z-index: 4;
+
+}
+
+
+.tshirtcard1 button img {
+  z-index: 3;
+  background: transparent;
+  width: 7vw;
+}
+
+.tshirtcard1,
+.tshirtcard2,
+.tshirtcard3 {
+  z-index: 3;
+  box-sizing: border-box;
+  background-color: #fefcf0;
+  border: 3px solid #1a1a1a;
+  box-shadow: 3px 3px 0px #000000;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+.tshirtcard1,
+.tshirtcard2,
+.tshirtcard3 {
+  z-index: 3;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.cardwhiteshirt {
+  z-index: 3;
+  width: 310px;
+  height: 351px;
+  background-color: #F35C41;
+}
+
+.cardblackshirt {
+  z-index: 3;
+  width: 310px;
+  height: 351px;
+  background-color: #C3DE47;
+  
+}
+
+.cardorangeshirt {
+  z-index: 3;
+  width: 310px;
+  height: 351px;
+  background-color: #099FBC;
+  
+}
+
+.cardtext {
+  z-index: 3;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.textstyle {
+  z-index: 3;
+  background: transparent;
+  font-weight: 600;
+  font-size: 2vw;
+  font-family: 'Aileron',sans-serif;
+}
+
+.price {
+  z-index: 3;
+  font-weight: 700;
+  color: #FF598A !important;
+  font-family: 'Aileron',sans-serif;
+
+}
+
+@media screen and (max-width:900px) {
+  .merchheader{
+    width: 80vw;
+  }
+
+  .tshirtcard1 button img {
+    z-index: 3;
+    background: transparent;
+    width: 12vw;
+  }
+
+  .tshirtcard1 button {
+    z-index: 3;
+    margin-left: -8.2%;
+    margin-top: -6%;
+  }
+}
+
+@media screen and (min-width:801px) {
+.header-mob{
+  display: none;
+}
+}
+  @media screen and (max-width:800px) {
+
+.header{
+  display: none;
+}
+  .heading-tshirt img {
+    z-index: 3;
+    width: 40vw;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    padding-right: 5%;
+  }
+
+  .tshirtcard1,
+  .tshirtcard2,
+  .tshirtcard3 {
+    z-index: 4;
+    margin-bottom: 7%;
+  }
+
+  .heading-accessories img {
+    z-index: 3;
+    width: 50vw !important;
+  }
+
+  .textstyle {
+    z-index: 3;
+    font-size: 3vw;
+  }
+  .scrolldown{
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width:501px) 
+{
+.heading-tshirt-mob{
+  display: none;
+}  
+}
+@media screen and (max-width:500px) {
+
+.heading-tshirt{
+  display: none;
+}
+.heading-tshirt-mob img {
+  z-index: 3;
+  width: 70vw;
+  margin-bottom: 15%;
+  margin-top: 10%;
+  padding-right: 5%;
+}
+  .cardwhiteshirt {
+    z-index: 3;
+    width: 250px;
+    height: 291px;
+    background-color: #F35C41;
+  }
+
+  .cardblackshirt {
+    z-index: 3;
+    width: 250px;
+    height: 291px;
+    background-color: #C3DE47;
+    ;
+  }
+
+  .cardorangeshirt {
+    z-index: 3;
+    width: 250px;
+    height: 291px;
+    background-color: #099FBC;
+    ;
+  }
+
+  .heading-accessories-mob img {
+    z-index: 3;
+    width: 85vw;
+  padding-right: 0% !important;
+  }
+}
+
+@media screen and (max-width:350px) {
+
+
+  .cardwhiteshirt {
+    z-index: 3;
+    width: 200px;
+    height: 241px;
+    background-color: #F35C41;
+  }
+
+  .cardblackshirt {
+    z-index: 3;
+    width: 200px;
+    height: 241px;
+    background-color: #C3DE47;
+    ;
+  }
+
+  .cardorangeshirt {
+    z-index: 3;
+    width: 200px;
+    height: 241px;
+    background-color: #099FBC;
+    ;
+  }
+
+  .heading-accessories-mob img {
+    z-index: 3;
+    width: 85vw;
+  }
+}
+.merchHeader-mob{
+
+  width: 70vw;
+}

@@ -1,0 +1,360 @@
+@import url('https://fonts.cdnfonts.com/css/aileron');
+
+
+body{
+    /* background: #fff5e6; */
+    background-image: url('./images/paperboard-yellow-texture2.png');
+background-size: cover;
+
+    margin: 0px;
+    z-index: 1;
+  }
+
+@font-face {
+    font-family: Star-Guard;
+    src: url('./star-guard-italic.ttf');
+}
+.main{
+    width: 100vw;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+  
+}
+.voyager_details{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    width: 100vw;
+}
+
+.imagescontainer{
+    display: flex;
+    padding: 20px;
+
+    gap:11px;
+    border: 3px solid black;
+   
+    box-shadow: 3px 3px;
+    justify-content: space-between;
+  
+}
+
+
+
+.front_view{
+    background: #C3DE47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}.img1{
+    width: 24vw;
+}
+.img2{
+    width: 21vw;
+}
+
+.back_view{
+    background: #C3DE47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 35vw;
+   
+max-width: 40vw;
+}
+
+.heading_voyager img {
+ width: 30vw;
+}
+
+.cost{
+    font-family: 'Aileron', sans-serif;
+    font-weight: 400;
+font-size: 1.8vh;
+}
+
+.details_text{
+    font-family: 'Aileron', sans-serif;
+  font-size: 1.8vh;
+    text-align: left;
+}
+
+.sizing{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 1.8vh;
+}
+
+.select_size{
+    font-family: 'Aileron', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+}
+
+.sizechart{
+    font-family: 'Aileron', sans-serif;
+    font-weight: 300;
+    color: #FF298A !important;
+    text-decoration: none;
+}
+
+
+.table{
+    display: flex;
+    gap: 0;
+  
+}
+
+.table .S{
+    border: 1px black solid;
+    /* text-align: center; */
+    width: 3vh;
+    height: 3vh;
+   
+    font-family: 'Aileron', sans-serif;
+    font-size: 1.8vh;
+    font-weight: 700;
+    background: none;
+}
+.table .xl{
+    border: 1px black solid;
+    /* text-align: center; */
+    width: 3.5vh;
+    height: 3vh;
+    
+    font-family: 'Aileron', sans-serif;
+    font-size: 1.8vh;
+    font-weight: 700;
+    background: none;
+}
+
+.buying_options{
+    display: flex;
+    gap: 4vw;
+}
+
+.addtocart{
+    padding: 1vh 2vw;
+    background: #099FBC;
+    border: 2px solid #000000;
+  border-radius:72px;
+  display: flex;
+  align-items: center;
+    font-family: 'Aileron', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5vh;
+    
+}
+
+.buy_now{
+    padding: 1vh 2vw;
+    background: #F35C41;
+    border: 2px solid #000000;
+  border-radius:72px;
+  display: flex;
+  align-items: center;
+    font-family: 'Aileron', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5vh;
+    
+}
+
+.icon1{
+    height: 2vh;
+    width: 2vh;
+    margin-right: 1vw;
+}
+
+.icon2{
+    height:2vh;
+    width: 2vh;
+    margin-right: 1vw;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+.cart-button{
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+  }
+  .cart-button button{
+      padding: 1vh 2vw;
+      background: #099FBC;
+      border: 2px solid #000000;
+    border-radius:72px;
+    display: flex;
+    align-items: center;
+      font-family: 'Aileron', sans-serif;
+      color: white;
+      font-weight: 700;
+      font-size: 1.5vh;
+  
+  }
+
+ @media screen and (max-width:1000px) {
+    .voyager_details{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagescontainer{
+        max-width: 80vw;
+    }
+    .front_view{
+        width: 37vw;
+    
+    }.img1{
+        width: 37vw;
+    }
+    .img2{
+        width: 31vw;
+    }
+    
+    .back_view{
+        width: 36vw;
+   
+     
+    }
+    .main{
+        height: auto;
+    }
+    .details{
+       width: 80vw;
+       gap: 15px;
+       max-width: none;
+    }
+ 
+    .table .S ,.table .xl{
+   
+        border: 1px solid black;
+        padding: 0px;
+    }
+    .buy_now,.addtocart, .cart-button button{
+     
+    padding: 1vh 2.5vw;
+
+    }
+    .cart-button button{
+    padding: 1vh 2.5vw;
+
+    }
+ 
+   
+} 
+@media screen and (max-width:800px) {
+    .heading_voyager img{
+   width: 50vw;
+    }
+}
+.table .S:focus, .table .xl:focus{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* carosel */
+.carousel-inner{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  
+  }
+  .tshirtcard2-carosal {
+    z-index: 3;
+    width: 100%;
+    height: 45vh;
+    background-color: #C3DE47;
+    padding-top: 5vh;
+    padding-bottom: 2.5vh;
+    box-sizing: border-box;
+  
+  }
+  .tshirt
+  .carousel-inner>.item{
+  
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out,-o-transform .3s ease-in-out !important;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 40vh;
+    padding: 5%;
+    margin: 0%;
+  }
+  .carousel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  #imagecontainer-mob{
+    background: #FEF8F1;
+border: 2px solid #1A1A1A;
+
+
+box-shadow: 2px 2px 0px #1A1A1A;
+  }
+  @media screen and (max-width:450px) 
+  {
+  .imagescontainer{
+    display: none;
+  }  
+  }
+  @media screen and (min-width:451px) 
+  {
+#imagecontainer-mob{
+    display: none;
+}
+  }
+
+  .carousel-indicators{
+    display: flex;
+    position: static;
+    width: auto;
+    margin-top: 45vh;
+    margin-left: -60%;
+  }
+  .carousel-indicators li{
+    background-color: #C3DE47 !important;
+
+
+  }
+  .carousel-indicators .active{
+    background-color: #C3DE47 !important;
+border:1px black solid;
+  }

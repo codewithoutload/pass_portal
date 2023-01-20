@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Pass</title>
+    <link rel="stylesheet" href="generalPass.css">
+</head>
+<body>
+        <!--  Code for navbar starts here -->
+        <div class='main'>
+            <header class='navHeader gradient'>
+                <div><a href="/"><img src="./Images/Mask group.png"  width="220vw" alt=""></a></div>
+                <nav class='NavigationBar'>
+                    <ul class='NavigationList'>
+                        <li class="Events" id="Event" onclick="color()" ><a href="/"  ><b>EVENTS</b></a ></li>
+                        <li class="Merch"><a href="/"><b>MERCH</b></NavLink></li>
+                        <li class='Campaigns'><a href="/"><b>CAMPAIGNS</b></NavLink></li>
+                        <li class='Teams'><a href="/"><b>TEAMS</b></NavLink></li>
+                        <li class='Mun'><a href="/"><b>MUN &emsp;</b></NavLink></li>
+                        <li class='Sponsors'><a href="/" style=
+                           " marginLeft : -25px"
+                            ><b>SPONSORS</b></NavLink></li>
+                        <li class="Contests"><a href="/"><b>CONTESTS</b></NavLink></li>
+                    </ul>
+                </nav>
+                <Link class='image' to="/BookTickets">
+                    <button id='btnn' >
+                        <div class="bookbtnn" style="display:flex">
+                            <img src="./Images/logoticket.png" class='logoticket' alt="" />
+                            <!-- <img src="./Images/BOOK TICKETS.png" class='booktickets' alt="" /> -->
+                            <p id="booktickett">BOOK TICKETS</p>
+                        </div>
+                    </button></Link>
+            </header>
+            </div>
+                <!-- <div class='mobile'>
+                <div class='navmob'>
+                    <div><a href="/"><img src="./Images/Mask group.png" width="220vw" alt=""></a></div> 
+                    <div onClick={handleClick}><Hamburger /></div>
+                </div>
+      
+                <div>
+                    <ul class='mobileList'>
+                        <li ><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
+                        <li ><NavLink to="/Merch"><b>MERCH</b></NavLink></li>
+                        <li ><NavLink to="/Campaigns"><b>CAMPAIGNS</b></NavLink></li>
+                        <li ><NavLink to="/Teams"><b>TEAMS</b></NavLink></li>
+                        <li ><NavLink to="/MUN"><b>MUN</b></NavLink></li>
+                        <li ><NavLink to="/Sponsors"><b>SPONSORS</b></NavLink></li>
+                        <li className="Contests"><NavLink to="/Contests" 
+        ><b>CONTESTS</b></NavLink></li>
+        <button id='btnn' >
+            <div className="bookbtnn" style="display:flex">
+                <img src="./Images/logoticket.png" class='logoticket' alt="" />
+                <p id="booktickett">BOOK TICKETS</p>
+            </div>
+        </button>
+                    </ul>
+                </div>
+        </div> -->
+       <!-- material icons CDN in the head section, see the html settings 👆-->
+       <div class="mobile">
+        <div><a href="/"><img src="./Images/Mask group.png" id="logomobile" width="150vw" alt=""></a></div> 
+      <ul class="menu mobileList">
+        <li><a class="menuItem" href="/"><b>EVENTS</b></a></li>
+        <li><a class="menuItem" href="/"><b>MERCH</b></a></li>
+        <li><a class="menuItem" href="/"><b>CAMPAIGNS</b></a></li>
+        <li><a class="menuItem" href="/"><b>TEAMS</b></a></li>
+        <li><a class="menuItem" href="/"><b>SPONSORS</b></a></li>
+        <li><a class="menuItem" href="/"><b>CONTESTS</b></a></li>
+        <li><a class="menuItem" href="/"><b>MUN</b></a></li>
+      </ul>
+      <button class="hamburger">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-symbols-outlined">menu</i>
+        <!-- <i class="closeIcon material-symbols-outlined">close</i> -->
+        <!-- <img src="./Images/menu.png" class="menuIcon" alt=""> -->
+        <img src="./Images/close.png" class="closeIcon" alt="">
+      
+      </button>
+      </div>
+      
+      <!-- Code for navbar ends here -->
+    <!-- <div class="alcherLogo">
+        <img src="alcher 2023 logo.png" alt="">
+    </div> -->
+
+    <div class="passImg"> 
+        <img src="Frame 14973.png" alt="">
+        <a href="##"><img src="Group 486.png" alt=""></a>
+        
+    </div>
+    <div class="form-container">
+        <div class="form-top">
+            <img class="bgpic" src="./form top.png" alt="">
+            <div class="form">
+                <br><br>
+                <div class="person">
+                    <div class="pass-type">
+                       <div><P class="p-person">Primary person</P></div> 
+                        <div><p class="textinput">Pass type</p></div>
+                        <div class="custom-select">
+                            <select name="" id="">
+                            <option value="0">Premium Pass</option>
+                            <option value="asdasd">asdsda</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput"> First Name</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput"> Last Name</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput">E-mail</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput">Phone Number</p>
+                        <input type="number" class="input-text-field " required>
+                    </div>
+                    <div class="pass-type age-gen">
+                        <div class="pass-gender">
+                            <p class="textinput">Gender</p>
+                            <div class="custom-select">
+                                <select name="" id="">
+                                <option value="0">Select </option>
+                                <option value="asdasd">female</option>
+                                <option value="asdasd">male</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="pass-age">
+                            <p class="textinput">Age</p>
+                            <div class="custom-select">
+                                <select name="" id="">
+                                <option value="0">1</option>
+                                <option value="asdasd">2</option>
+                                <option value="asdasd">3</option>
+                            </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="addIndividualBtnDiv pass-type">
+                        <a href="##"><img  src="Group 481.png" alt=""></a>
+                </div>
+                </div>
+               
+            </div>
+          
+        </div>
+
+<!--////////////////////////////////// Form Mid  -->
+        <!-- <div class="form-mid">
+            <img class="bgpic" src="./form mid.png" alt="">
+            <div class="form">
+                <div class="person">
+                    <div class="pass-type">
+                        <P class="p-person">Second person</P>
+                        <div class="remove-button">
+                            Remove
+                        </div>
+                        <p class="textinput">Pass type</p>
+                        <div class="custom-select">
+                            <select name="" id="">
+                            <option value="0">Premium Pass</option>
+                            <option value="asdasd">asdsda</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput"> First Name</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput"> Last Name</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput">E-mail</p>
+                        <input type="text" class="input-text-field " required>
+                    </div>
+                    <div class=" pass-type">
+                        <p class="textinput">Phone Number</p>
+                        <input type="number" class="input-text-field " required>
+                    </div>
+                    <div class="pass-type age-gen">
+                        <div class="pass-gender">
+                            <p class="textinput">Gender</p>
+                            <div class="custom-select">
+                                <select name="" id="">
+                                <option value="0">Select</option>
+                                <option value="asdasd">female</option>
+                                <option value="asdasd">male</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="pass-age">
+                            <p class="textinput">Age</p>
+                            <div class="custom-select">
+                                <select name="" id="">
+                                <option value="0">1</option>
+                                <option value="asdasd">2</option>
+                                <option value="asdasd">3</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+        <div class="form-bottom">
+            <img class="bgpic" src="./form-bottom.png" alt="">
+            <div class="form">
+                <div class="person">
+                    <div class="pass-type">
+                        <div class="ccp-container">
+                            <div class="textinput ccp">Creator's Camp Pass</div>
+                            <div class="textinput ccp" style="float: right;">$999</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bookTicketsBtnDiv" >
+                <a href="##"><img class="bookTicketsBtn" src="Group 233.png" alt=""></a>
+                 </div>
+        </div>
+    </div>
+    <!-- Footer code starts here  -->
+
+
+    <div class="footer_desk">
+        <div class="logo_mob">
+
+              <img src="./images/yellow_stone.png" class="yellow">
+            <img src="./images/red_stone.png" class="red">
+            <div class='hail'>HAIL <br> ALCHER!</div>
+                    <img src="./images/green_stone.png" class="green">
+                    <img src="./images/violet_stone.png" class="violet">
+        </div>
+        <div>
+          <div class="footer_main">
+            <div class="options">
+              <ul type="none">
+                <li>
+                  <a href="/Events">EVENTS</a>
+                </li>
+                <li>
+                  <a href="/Merch">MERCH</a>
+                </li>
+                <li>
+                  <a href="/Campaigns">CAMPAIGNS</a>
+                </li>
+                <li>
+                  <a href="/Teams">TEAMS</a>
+                </li>
+                <li>
+                  <a href="/MUN">MUN</a>
+                </li>
+                <li>
+                  <a href="/Sponsors">SPONSORS</a>
+                </li>
+                <li>
+                  <a href="/Contests">CONTESTS</a>
+                </li>
+              </ul>
+            </div>
+            <div class="logo">
+              <!-- <HailAlcher /> -->
+                        <!-- Hail Alcher Starts  -->
+
+                        <img src="./images/yellow_stone.png" class="yellow">
+                        <img src="./images/red_stone.png" class="red">
+                        <div class='hail'>HAIL <br> ALCHER!</div>
+                                <img src="./images/green_stone.png" class="green">
+                                <img src="./images/violet_stone.png" class="violet">
+                      <!-- Hail Alcher Ends  -->
+            </div>
+            <div class="details_main">
+              <div class="details">
+                <div class="contact">
+                  <div class="shareka">
+                    <b>Siddant Singh</b>
+                    PR Head<br>
+                    +91 9310859978
+                  </div>
+                  <br>
+                  <div class="abhi">
+                    <b>Danda Akshara</b>
+                    PR Head<br>
+                    +91 9908991939
+                  </div>
+                </div>
+              </div>
+              <div class="socials_mob">
+                <a
+                  class="insta"
+                  href="https://www.instagram.com/alcheringaiitg/"
+                >
+                  <!-- <Insta2 /> -->
+                  <img src="./images/insta2.svg">
+                </a>
+                <a
+                  class="face"
+                  href="https://www.facebook.com/alcheringaiitg"
+                >
+                  <!-- <Facebook2 /> -->
+                  <img src="./images/facebook2.svg">
+                </a>
+                <a class="tweet" href="https://twitter.com/alcheringaiitg">
+                  <!-- <Twitter2 /> -->
+                  <img src="./images/twitter2.svg">
+                </a>
+                <a
+                  class="youtube"
+                  href="https://www.youtube.com/@alcheringaIITG"
+                >
+                  <!-- <Youtube2 /> -->
+                  <img src="./images/utube2.svg">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div>
+              <a href="/">
+                <img class="footer_logo"src="./images/LogoFooter.svg">
+              </a>
+            </div>
+            <div class="socialIcon">
+              <div class="socials_desk">
+                <a
+                  class="insta"
+                  href="https://www.instagram.com/alcheringaiitg/"
+                >
+                  <img src="./images/insta.svg">
+                </a>
+                <a
+                  class="face"
+                  href="https://www.facebook.com/alcheringaiitg"
+                >
+                  <img src="./images/facebook.svg">
+                </a>
+                <a class="tweet" href="https://twitter.com/alcheringaiitg">
+                  <img src="./images/twitter.svg">
+                </a>
+                <a
+                  class="youtube"
+                  href="https://www.youtube.com/@alcheringaIITG"
+                >
+                  <img src="./images/utube.svg">
+                </a>
+              </div>
+              <div class="inqueries">
+                <span style="font-weight: 200;">For Business Enqueries:</span>
+                <span style="font-weight: 900">alcheringa@iitg.ac.in</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Footer code ends here  -->
+
+    <!-- script starts here -->
+    <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select":*/
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+            selElmnt = x[i].getElementsByTagName("select")[0];
+            ll = selElmnt.length;
+            /*for each element, create a new DIV that will act as the selected item:*/
+            a = document.createElement("DIV");
+            a.setAttribute("class", "select-selected");
+            a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+            x[i].appendChild(a);
+            /*for each element, create a new DIV that will contain the option list:*/
+            b = document.createElement("DIV");
+            b.setAttribute("class", "select-items select-hide");
+            for (j = 1; j < ll; j++) {
+                /*for each option in the original select element,
+                create a new DIV that will act as an option item:*/
+                c = document.createElement("DIV");
+                c.innerHTML = selElmnt.options[j].innerHTML;
+                c.addEventListener("click", function(e) {
+                    /*when an item is clicked, update the original select box,
+                    and the selected item:*/
+                    var y, i, k, s, h, sl, yl;
+                    s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                    sl = s.length;
+                    h = this.parentNode.previousSibling;
+                    for (i = 0; i < sl; i++) {
+                        if (s.options[i].innerHTML == this.innerHTML) {
+                            s.selectedIndex = i;
+                            h.innerHTML = this.innerHTML;
+                            y = this.parentNode.getElementsByClassName("same-as-selected");
+                            yl = y.length;
+                            for (k = 0; k < yl; k++) {
+                                y[k].removeAttribute("class");
+                            }
+                            this.setAttribute("class", "same-as-selected");
+                            break;
+                        }
+                    }
+                    h.click();
+                });
+                b.appendChild(c);
+            }
+            x[i].appendChild(b);
+            a.addEventListener("click", function(e) {
+                /*when the select box is clicked, close any other select boxes,
+                and open/close the current select box:*/
+                e.stopPropagation();
+                closeAllSelect(this);
+                this.nextSibling.classList.toggle("select-hide");
+                this.classList.toggle("select-arrow-active");
+            });
+        }
+
+        function closeAllSelect(elmnt) {
+            /*a function that will close all select boxes in the document,
+            except the current select box:*/
+            var x, y, i, xl, yl, arrNo = [];
+            x = document.getElementsByClassName("select-items");
+            y = document.getElementsByClassName("select-selected");
+            xl = x.length;
+            yl = y.length;
+            for (i = 0; i < yl; i++) {
+                if (elmnt == y[i]) {
+                    arrNo.push(i)
+                } else {
+                    y[i].classList.remove("select-arrow-active");
+                }
+            }
+            for (i = 0; i < xl; i++) {
+                if (arrNo.indexOf(i)) {
+                    x[i].classList.add("select-hide");
+                }
+            }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+    </script>
+    <script src="scriptPassPortal.js"></script>
+</body>
+</html>
