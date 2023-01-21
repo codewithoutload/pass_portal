@@ -333,8 +333,8 @@ li{
     justify-content: center;
     align-items: center;
   padding:0vh 6vw ;
-  margin-top: 24.7vh;
-  margin-bottom: 30vh;
+  margin-top:11.7vh;
+  margin-bottom: 15vh;
 }
 .Pass-Alcher .Pass{
     background-image: url('./Subtract.png');
@@ -357,7 +357,11 @@ li{
     display: flex;
     box-sizing: border-box;
 }
-
+.addmember{
+  display: flex;
+  margin-bottom: 7vh;
+  margin-left: 9.5vw;
+}
 .shipping-section{
   
   
@@ -371,10 +375,6 @@ width: 74.7%;
 
 }
 
-
-.genderDiv{
-
-}
 
 .shipping-details{
     display: flex;
@@ -587,12 +587,7 @@ background-color: #FEA82F;
     display: flex;
     justify-content: center;
   }
-  .addmember{
-  
-   transform: translateY(-25vw)scale(.8);
-  
-   
-  }
+
   #bookbtnnav:hover {
     box-shadow: none;
     transform: translate(5%, 10%);
