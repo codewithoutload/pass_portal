@@ -1,5 +1,5 @@
-@import url('//db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold');
-@import url('//db.onlinewebfonts.com/c/351c65048c69125fa2f3421ec197545d?family=Aileron');
+/* @import url('//db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold');
+@import url('//db.onlinewebfonts.com/c/351c65048c69125fa2f3421ec197545d?family=Aileron'); */
 .form-container {
     width: 90vw;
     height: fit-content;
@@ -19,7 +19,6 @@ body
     position: relative;
   
 }
-
 .fonts_div
 {
     font-family: 'Aileron', sans-serif;
@@ -97,7 +96,7 @@ body
 
 .input-text-field {
     background: rgba(255, 255, 255, 0);
-    /* height: ; */
+    height: ;
     width: 100%;
     padding: 2% 3%;
     border-color: black;
@@ -126,10 +125,11 @@ body
   }
   .fa-eye{
     position: absolute;
-    top: 25%;
-    right: 2%;
+    top: 16%;
+    right: -16%;
     cursor: pointer;
-    color: lightgray;
+    color: #141414;
+    font-size: 7vw;
   }
   
 
@@ -165,7 +165,7 @@ input:focus {
     justify-content: space-between;
     position: relative;
 }
-/*the container must be positioned relative:*/
+/* /the container must be positioned relative:/ */
 
 .custom-select {
     position: relative;
@@ -173,9 +173,9 @@ input:focus {
 
 .custom-select select {
     display: none;
-    /*hide original SELECT element:*/
+    /* /hide original SELECT element:/ */
 }
-/*style the arrow inside the select element:*/
+/* /style the arrow inside the select element:/ */
 
 .select-selected:after {
     position: absolute;
@@ -187,13 +187,13 @@ input:focus {
     border: 10px solid transparent;
     border-color: rgb(0, 0, 0) transparent transparent transparent;
 }
-/*point the arrow upwards when the select box is open (active):*/
+/* /point the arrow upwards when the select box is open (active):/ */
 
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent rgb(0, 0, 0) transparent;
     top: 7px;
 }
-/*style the items (options), including the selected item:*/
+/* /style the items (options), including the selected item:/ */
 
 .select-items div,
 .select-selected {
@@ -208,7 +208,7 @@ input:focus {
     line-height:150% ;
     background-color: #099FBC;
 }
-/*style items (options):*/
+/* /style items (options):/ */
 
 .select-items {
     position: absolute;
@@ -217,7 +217,7 @@ input:focus {
     right: 0;
     z-index: 99;
 }
-/*hide the items when the select box is closed:*/
+/* /hide the items when the select box is closed:/ */
 
 .select-hide {
     display: none;
@@ -229,7 +229,7 @@ input:focus {
 }
 
 .custom-select:after {
-    border-left: 2px solid rgb(0, 0, 0);
+    /* border-left: 2px solid rgb(0, 0, 0); */
     content: "\00a0";
     position: absolute;
     top: 7px;
