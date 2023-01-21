@@ -7,8 +7,80 @@
     <title>Payment Confirmation</title>
     <link rel="stylesheet" href="paymentConfirmation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../../navbarTemplate.css"> -->
+    <link rel="stylesheet" href="../../footerTemplate.css">
 </head>
 <body>
+    <div class='main'>
+        <header class='navHeader gradient'>
+            <div style="margin-top: 1vh;" ><a href="/"><img style="width: 15vw;" src="./Images/Mask group.png" class="alcherLogoo" alt=""></a></div>
+            <nav class='NavigationBar'>
+                <ul class='NavigationList'>
+                    <li class="Events" id="Event" onclick="color()" ><a href="/"  ><b>EVENTS</b></a ></li>
+                    <li class="Merch"><a href="/"><b>MERCH</b></a></li>
+                    <li class='Campaigns'><a href="/"><b>CAMPAIGNS</b></a></li>
+                    <li class='Teams'><a href="/"><b>TEAMS</b></a></li>
+                   
+                    <li class='Sponsors'><a href="/" 
+                        ><b>SPONSORS</b></a></li>
+                    <li class="Contests"><a href="/"><b>CONTESTS</b></a></li>
+                </ul>
+            </nav>
+           
+        </header>
+        </div>
+            <!-- <div class='mobile'>
+            <div class='navmob'>
+                <div><a href="/"><img src="./Images/Mask group.png" width="220vw" alt=""></a></div> 
+                <div onClick={handleClick}><Hamburger /></div>
+            </div>
+  
+            <div>
+                <ul class='mobileList'>
+                    <li ><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
+                    <li ><NavLink to="/Merch"><b>MERCH</b></NavLink></li>
+                    <li ><NavLink to="/Campaigns"><b>CAMPAIGNS</b></NavLink></li>
+                    <li ><NavLink to="/Teams"><b>TEAMS</b></NavLink></li>
+                    <li ><NavLink to="/MUN"><b>MUN</b></NavLink></li>
+                    <li ><NavLink to="/Sponsors"><b>SPONSORS</b></NavLink></li>
+                    <li className="Contests"><NavLink to="/Contests" 
+    ><b>CONTESTS</b></NavLink></li>
+    <button id='btnn' >
+        <div className="bookbtnn" style="display:flex">
+            <img src="./Images/logoticket.png" class='logoticket' alt="" />
+            <p id="booktickett">BOOK TICKETS</p>
+        </div>
+    </button>
+                </ul>
+            </div>
+    </div> -->
+   <!-- material icons CDN in the head section, see the html settings 👆-->
+   <div class="mobile">
+    <div><a href="/"><img src="./Images/Mask group.png" id="logomobile" width="150vw" alt=""></a></div> 
+  <ul class="menu mobileList">
+    <li><a class="menuItem" href="/"><b>EVENTS</b></a></li>
+    <li><a class="menuItem" href="/"><b>MERCH</b></a></li>
+    <li><a class="menuItem" href="/"><b>CAMPAIGNS</b></a></li>
+    <li><a class="menuItem" href="/"><b>TEAMS</b></a></li>
+    <li><a class="menuItem" href="/"><b>SPONSORS</b></a></li>
+    <li><a class="menuItem" href="/"><b>CONTESTS</b></a></li>
+  
+  </ul>
+  <button class="hamburger">
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-symbols-outlined">menu</i>
+    <!-- <i class="closeIcon material-symbols-outlined">close</i> -->
+    <!-- <img src="./Images/menu.png" class="menuIcon" alt=""> -->
+    <img src="./Images/close.png" class="closeIcon" alt="">
+  
+  </button>
+  </div>
+  <!-- /////////// code for navbar ends here -->
+  
+      <!-- <div class="alcherLogo">
+      <img src="alcher 2023 logo.png" alt="">
+  </div> -->
+  
     <div class="Pass-Alcher">
         <form action="">
 <div class="Pass">
@@ -157,7 +229,141 @@
         <div > <img class="tapButton" src="./whatsappBtn.png" alt=""></div>
     </div>
     </div>
-   
+   <!-- Footer code starts here  -->
+
+
+   <div class="footer_desk">
+    <div class="logo_mob">
+
+          <img src="./images/yellow_stone.png" class="yellow">
+        <img src="./images/red_stone.png" class="red">
+        <div class='hail'>HAIL <br> ALCHER!</div>
+                <img src="./images/green_stone.png" class="green">
+                <img src="./images/violet_stone.png" class="violet">
+    </div>
+    <div>
+      <div class="footer_main">
+        <div class="options">
+          <ul type="none">
+            <li>
+              <a href="/Events">EVENTS</a>
+            </li>
+            <li>
+              <a href="/Merch">MERCH</a>
+            </li>
+            <li>
+              <a href="/Campaigns">CAMPAIGNS</a>
+            </li>
+            <li>
+              <a href="/Teams">TEAMS</a>
+            </li>
+            <li>
+              <a href="/MUN">MUN</a>
+            </li>
+            <li>
+              <a href="/Sponsors">SPONSORS</a>
+            </li>
+            <li>
+              <a href="/Contests">CONTESTS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="logo">
+          <!-- <HailAlcher /> -->
+                    <!-- Hail Alcher Starts  -->
+
+                    <img src="./images/yellow_stone.png" class="yellow">
+                    <img src="./images/red_stone.png" class="red">
+                    <div class='hail'>HAIL <br> ALCHER!</div>
+                            <img src="./images/green_stone.png" class="green">
+                            <img src="./images/violet_stone.png" class="violet">
+                  <!-- Hail Alcher Ends  -->
+        </div>
+        <div class="details_main">
+          <div class="details">
+            <div class="contact">
+              <div class="shareka">
+                <b>Siddant Singh</b>
+                PR Head<br>
+                +91 9310859978
+              </div>
+              <br>
+              <div class="abhi">
+                <b>Danda Akshara</b>
+                PR Head<br>
+                +91 9908991939
+              </div>
+            </div>
+          </div>
+          <div class="socials_mob">
+            <a
+              class="insta"
+              href="https://www.instagram.com/alcheringaiitg/"
+            >
+              <!-- <Insta2 /> -->
+              <img src="./images/insta2.svg">
+            </a>
+            <a
+              class="face"
+              href="https://www.facebook.com/alcheringaiitg"
+            >
+              <!-- <Facebook2 /> -->
+              <img src="./images/facebook2.svg">
+            </a>
+            <a class="tweet" href="https://twitter.com/alcheringaiitg">
+              <!-- <Twitter2 /> -->
+              <img src="./images/twitter2.svg">
+            </a>
+            <a
+              class="youtube"
+              href="https://www.youtube.com/@alcheringaIITG"
+            >
+              <!-- <Youtube2 /> -->
+              <img src="./images/utube2.svg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div>
+          <a href="/">
+            <img class="footer_logo"src="./images/LogoFooter.svg">
+          </a>
+        </div>
+        <div class="socialIcon">
+          <div class="socials_desk">
+            <a
+              class="insta"
+              href="https://www.instagram.com/alcheringaiitg/"
+            >
+              <img src="./images/insta.svg">
+            </a>
+            <a
+              class="face"
+              href="https://www.facebook.com/alcheringaiitg"
+            >
+              <img src="./images/facebook.svg">
+            </a>
+            <a class="tweet" href="https://twitter.com/alcheringaiitg">
+              <img src="./images/twitter.svg">
+            </a>
+            <a
+              class="youtube"
+              href="https://www.youtube.com/@alcheringaIITG"
+            >
+              <img src="./images/utube.svg">
+            </a>
+          </div>
+          <div class="inqueries">
+            <span style="font-weight: 200;">For Business Enqueries:</span>
+            <span style="font-weight: 900">alcheringa@iitg.ac.in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Footer code ends here  -->
 
     <script>
         const passwordInput = document.querySelector("#password")
