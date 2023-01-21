@@ -275,3 +275,27 @@ margin-top: 1.5vh;
     transform: translate(5%, 10%);
     transition-duration: 0.3s;
   }
+
+  .buttonStack{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10%; */
+    justify-content: space-between;
+    width: 18vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttonStackOuterDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  .tapButton{
+    width: 5vw;
+    /* height: 10vh; */
+    box-shadow: 5px 5px black;
+
+  }
+  .tapButton:hover{
+    transform: translate(5px,5px);
+    transition-duration: 0.3s;
+  }

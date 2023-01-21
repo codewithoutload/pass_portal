@@ -9,12 +9,17 @@
     margin-top: 10%;
     margin-bottom: 100vh;
 }
+body
+{
+    font-size: 5vw;
+}
 
 .form-top {
     display: grid;
     position: relative;
   
 }
+
 .fonts_div
 {
     font-family: 'Aileron', sans-serif;
@@ -92,7 +97,7 @@
 
 .input-text-field {
     background: rgba(255, 255, 255, 0);
-    height: ;
+    /* height: ; */
     width: 100%;
     padding: 2% 3%;
     border-color: black;
