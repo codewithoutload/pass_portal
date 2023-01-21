@@ -4,83 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Premium Pass</title>
     <link rel="stylesheet" href="premiumPassPage.css">
 </head>
 <body>
         <!--  Code for navbar starts here -->
         <div class='main'>
-            <header class='navHeader gradient'>
-                <div><a href="/"><img src="./Images/Mask group.png"  width="220vw" alt=""></a></div>
-                <nav class='NavigationBar'>
-                    <ul class='NavigationList'>
-                        <li class="Events" id="Event" onclick="color()" ><a href="/"  ><b>EVENTS</b></a ></li>
-                        <li class="Merch"><a href="/"><b>MERCH</b></NavLink></li>
-                        <li class='Campaigns'><a href="/"><b>CAMPAIGNS</b></NavLink></li>
-                        <li class='Teams'><a href="/"><b>TEAMS</b></NavLink></li>
-                        <li class='Mun'><a href="/"><b>MUN &emsp;</b></NavLink></li>
-                        <li class='Sponsors'><a href="/" style=
-                           " marginLeft : -25px"
-                            ><b>SPONSORS</b></NavLink></li>
-                        <li class="Contests"><a href="/"><b>CONTESTS</b></NavLink></li>
-                    </ul>
-                </nav>
-                <Link class='image' to="/BookTickets">
-                    <button id='btnn' >
-                        <div class="bookbtnn" style="display:flex">
-                            <img src="./Images/logoticket.png" class='logoticket' alt="" />
-                            <!-- <img src="./Images/BOOK TICKETS.png" class='booktickets' alt="" /> -->
-                            <p id="booktickett">BOOK TICKETS</p>
-                        </div>
-                    </button></Link>
-            </header>
+          <header class='navHeader gradient'>
+            <div><a href="/"><img src="./Images/Mask group.png" width="220vw" alt=""></a></div>
+            <nav class='NavigationBar'>
+                <ul class='NavigationList'>
+                    <li class="Events" id="Event" onclick="color()" ><a href="/"  ><b>EVENTS</b></a ></li>
+                    <li class="Merch"><a href="/"><b>MERCH</b></NavLink></li>
+                    <li class='Campaigns'><a href="/"><b>CAMPAIGNS</b></NavLink></li>
+                    <li class='Teams'><a href="/"><b>TEAMS</b></NavLink></li>
+                    <li class='Mun'><a href="/"><b>MUN </b></NavLink></li>
+                    <li class='Sponsors'><a href="/" 
+                        ><b>SPONSORS</b></NavLink></li>
+                    <li class="Contests"><a href="/"><b>CONTESTS</b></NavLink></li>
+                </ul>
+            </nav>
+            <Link class='image' to="/BookTickets">
+                <button id='btnn' >
+                    <div class="bookbtnn" style="display:flex">
+                        <img src="./Images/logoticket.png" class='logoticket' alt="" />
+                        <!-- <img src="./Images/BOOK TICKETS.png" class='booktickets' alt="" /> -->
+                        <p id="booktickett">BOOK TICKETS</p>
+                    </div>
+                </button></Link>
+        </header>
+        </div>
+            <!-- <div class='mobile'>
+            <div class='navmob'>
+                <div><a href="/"><img src="./Images/Mask group.png" width="220vw" alt=""></a></div> 
+                <div onClick={handleClick}><Hamburger /></div>
             </div>
-                <!-- <div class='mobile'>
-                <div class='navmob'>
-                    <div><a href="/"><img src="./Images/Mask group.png" width="220vw" alt=""></a></div> 
-                    <div onClick={handleClick}><Hamburger /></div>
-                </div>
-      
-                <div>
-                    <ul class='mobileList'>
-                        <li ><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
-                        <li ><NavLink to="/Merch"><b>MERCH</b></NavLink></li>
-                        <li ><NavLink to="/Campaigns"><b>CAMPAIGNS</b></NavLink></li>
-                        <li ><NavLink to="/Teams"><b>TEAMS</b></NavLink></li>
-                        <li ><NavLink to="/MUN"><b>MUN</b></NavLink></li>
-                        <li ><NavLink to="/Sponsors"><b>SPONSORS</b></NavLink></li>
-                        <li className="Contests"><NavLink to="/Contests" 
-        ><b>CONTESTS</b></NavLink></li>
-        <button id='btnn' >
-            <div className="bookbtnn" style="display:flex">
-                <img src="./Images/logoticket.png" class='logoticket' alt="" />
-                <p id="booktickett">BOOK TICKETS</p>
+  
+            <div>
+                <ul class='mobileList'>
+                    <li ><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
+                    <li ><NavLink to="/Merch"><b>MERCH</b></NavLink></li>
+                    <li ><NavLink to="/Campaigns"><b>CAMPAIGNS</b></NavLink></li>
+                    <li ><NavLink to="/Teams"><b>TEAMS</b></NavLink></li>
+                    <li ><NavLink to="/MUN"><b>MUN</b></NavLink></li>
+                    <li ><NavLink to="/Sponsors"><b>SPONSORS</b></NavLink></li>
+                    <li className="Contests"><NavLink to="/Contests" 
+    ><b>CONTESTS</b></NavLink></li>
+    <button id='btnn' >
+        <div className="bookbtnn" style="display:flex">
+            <img src="./Images/logoticket.png" class='logoticket' alt="" />
+            <p id="booktickett">BOOK TICKETS</p>
+        </div>
+    </button>
+                </ul>
             </div>
-        </button>
-                    </ul>
-                </div>
-        </div> -->
-       <!-- material icons CDN in the head section, see the html settings 👆-->
-       <div class="mobile">
-        <div><a href="/"><img src="./Images/Mask group.png" id="logomobile" width="150vw" alt=""></a></div> 
-      <ul class="menu mobileList">
-        <li><a class="menuItem" href="/"><b>EVENTS</b></a></li>
-        <li><a class="menuItem" href="/"><b>MERCH</b></a></li>
-        <li><a class="menuItem" href="/"><b>CAMPAIGNS</b></a></li>
-        <li><a class="menuItem" href="/"><b>TEAMS</b></a></li>
-        <li><a class="menuItem" href="/"><b>SPONSORS</b></a></li>
-        <li><a class="menuItem" href="/"><b>CONTESTS</b></a></li>
-        <li><a class="menuItem" href="/"><b>MUN</b></a></li>
-      </ul>
-      <button class="hamburger">
-        <!-- material icons https://material.io/resources/icons/ -->
-        <i class="menuIcon material-symbols-outlined">menu</i>
-        <!-- <i class="closeIcon material-symbols-outlined">close</i> -->
-        <!-- <img src="./Images/menu.png" class="menuIcon" alt=""> -->
-        <img src="./Images/close.png" class="closeIcon" alt="">
-      
-      </button>
-      </div>
+    </div> -->
+   <!-- material icons CDN in the head section, see the html settings 👆-->
+   <div class="mobile">
+    <div><a href="/"><img src="./Images/Mask group.png" id="logomobile" width="150vw" alt=""></a></div> 
+  <ul class="menu mobileList">
+    <li><a class="menuItem" href="/"><b>EVENTS</b></a></li>
+    <li><a class="menuItem" href="/"><b>MERCH</b></a></li>
+    <li><a class="menuItem" href="/"><b>CAMPAIGNS</b></a></li>
+    <li><a class="menuItem" href="/"><b>TEAMS</b></a></li>
+    <li><a class="menuItem" href="/"><b>SPONSORS</b></a></li>
+    <li><a class="menuItem" href="/"><b>CONTESTS</b></a></li>
+    <li><a class="menuItem" href="/"><b>MUN</b></a></li>
+  </ul>
+  <button class="hamburger">
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-symbols-outlined">menu</i>
+    <!-- <i class="closeIcon material-symbols-outlined">close</i> -->
+    <!-- <img src="./Images/menu.png" class="menuIcon" alt=""> -->
+    <img src="./Images/close.png" class="closeIcon" alt="">
+  
+  </button>
+  </div>
       
       <!-- Code for navbar ends here -->
     <!-- <div class="alcherLogo">
