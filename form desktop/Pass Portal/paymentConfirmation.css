@@ -17,7 +17,6 @@ margin-bottom: 5vh;
 }
 
 
-
 .shipping-section{
   
   
@@ -165,10 +164,26 @@ margin-top: 1.5vh;
     cursor: pointer;
     color: lightgray;
   }
-  #eye{
+  #eye, #eye1{
     /* transform: scale(5); */
     font-size: 1.5vw;
   }
+  @media  (max-width:1300px) {
+    .Pass-Alcher .Pass{
+        height: 45vh;
+    }
+    .fa-eye{
+        margin-top: 1.1vh;
+    }
+}
+@media  (max-width:1000px) {
+    .Pass-Alcher .Pass{
+        height: 35vh;
+    }
+    .fa-eye{
+        margin-top: 0.9vh;
+    }
+}
 .blackdot img{
     height: 80%;
 }
@@ -274,3 +289,26 @@ margin-top: 1.5vh;
     transform: translate(5%, 10%);
     transition-duration: 0.3s;
   }
+  .buttonStack{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10%; */
+    justify-content: space-between;
+    width: 18vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttonStackOuterDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  .tapButton{
+    width: 5vw;
+    height: 5vw;
+    box-shadow: 5px 5px black;
+
+  }
+  .tapButton:hover{
+    transform: translate(5px,5px);
+    transition-duration:0.3s;
+}
